@@ -1,0 +1,141 @@
+@media only screen and (min-width: 480px) and (max-width: 768px), (max-width: 480px) {
+    header{
+        height: 60px;
+        padding: 0 15px;
+        .header-content{
+            width: 100%;
+            display: flex;
+            // justify-content: flex-start;
+            menu{
+                display: none;
+            }
+            .toggle{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 30px;
+                height: 24px;
+                div{
+                    width: 100%;
+                    height: 3px;
+                    background-color: black;  
+                }
+                
+            }
+        }
+    }
+    main{
+        .promo{
+            height: 400px;
+            background-image: url(../img/bg-mobile.jpg);
+            margin-bottom: 60px;
+            .promo-content{
+                max-width: 300px;
+                h1{
+                    font-size: 20px;
+                    line-height: 42px;
+                }
+            }
+        }
+        .skills{
+            flex-direction: column;
+            margin-bottom: 60px;
+            .skills-blog{
+                max-width: 450px;
+                margin-bottom: 30px;
+                margin-right: 0;
+
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .about{
+            padding: 0 10px;
+            h3{
+                font-size: 28px;
+            }
+            .about-blog{
+                
+                align-items: center;
+                flex-direction: column;
+                .about-blog__item{
+                    width: 100%;
+                    margin-bottom: 15px;
+                    margin-right: 0;
+                }
+            }
+        }
+        .team{ 
+            padding: 60px 0;
+            .team-content{
+                h3{
+                    font-size: 28px;
+                    line-height: 33px;
+                }
+                .team-content__blog{
+                    flex-direction: column;
+                    align-items: center;
+                    .team-content__card{
+                        max-width: 450px;
+                        margin-bottom: 30px;
+                        padding-bottom: 24px;
+                    }
+                }
+            } 
+        }
+        .clients{
+            padding: 60px 0;
+
+            h3{
+                font-size: 28px; 
+            }
+
+            .clients-blog{
+                justify-content: space-around;
+                .clients-blog__item{
+                    width: 210px;
+                    margin-bottom: 30px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    footer{
+        .footer-blog{
+            flex-direction: column;
+
+            .footer-info{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 0;
+                margin-bottom: 60px;
+            }
+
+            .footer-social{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-right: 0;
+                margin-bottom: 60px;
+            }
+            .footer-msg{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    input{
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
